@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fiesta - Vale La Pena?</title>
+    <link rel="stylesheet" href="public/texas.css">
+</head>
+<body data-restaurant="La Fiesta">
+
+    <div class="container">
+        <header>
+            <img src="public/images/brownlogo.PNG" alt="logo for Vale La Pena?" width="400" height="300" style="transform: translateY(-70px);">
+        </header>
+    
+        <nav>
+            <a href="./index.html" target="_blank">HOME</a>
+            <a href="./reviews.html" target="_blank">REVIEWS</a>
+            <a href="./favs.html">OUR FAVORITES</a>
+            <a href="./abtUs.html" target="_blank">ABOUT US</a>
+            
+        </nav>
+        
+        <main>
+            <h1>La Fiesta Review </h1>
+            <p class="main4">☆5/5 </p>
+            <p class="main2"> La Fiesta is a Mexican Restaurant located on 720 Pacha Pkway #2, in North Liberty Iowa. They specialize in traditional Mexican meals, like fajitas, tacos and their happy hour offerings.. </p>
+            <p class="main2"> At La Fiesta, I ordered Quesabirria Tacos, which is cooked beef, folded into a tortilla with cheese, served with a bowl of broth, for dipping. I asked for onion and cilantro on top, with salsas on the side. The quesabirrias have crispy tortillas, covered in cheese. The cheese was melty - all over the tortilla and beef, which was tender and smooth. The consume (broth) drips off the taco onto the plate. They were savory and rich, with rich crunchy onions on top. I love getting quesabirria every time I go to La Fiesta. </p>
+
+            <p class="main2"> The fried ice cream at la fiesta is a favorite dessert of mine. It comes in a crispy warm crunchy tortilla bowl. The ice cream is rich, cold and creamy, and sweet. It comes covered in chocolate syrup, cinnamon and a cherry on top. Instead of being covered in normal corn flakes, or plain cereal, it came in fruity pebbles. This is hands down my favorite ice cream in all of Iowa. </p>
+            
+        </main>
+        <img src="public/images/fiesta - Copy.jpg" alt="pictures quesabirria tacos topped with cilantro and onion from La Fiesta" class="Teximage">
+
+        <section class="comments">
+            <h2> Leave a Comment!!</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <br><br>
+            <textarea id="comment" placeholder="Write your comment Here.."></textarea>
+            <br><br>
+            <button type ="button" onclick="addComment(event)">Post Comment</button>
+            <hr>
+            <div id="comments"></div>
+        </section>
+        <footer>
+            <p> Vale la Pena official - Copyright June 2026</p>
+        </footer>
+    
+    </div>
+    <script src="comments.js"> </script>
+</body>
+</html>
